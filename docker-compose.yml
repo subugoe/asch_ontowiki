@@ -1,0 +1,13 @@
+web:
+  build: wiki
+  links:
+    - db
+  ports:
+    - "8001:80"
+
+db:
+  build: mysql
+  ports:
+    - "3306"
+  env_file: mysql.env
+
