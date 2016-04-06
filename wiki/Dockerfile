@@ -2,7 +2,7 @@ FROM		ubuntu:16.04
 MAINTAINER	Juergen Doenitz
 
 RUN		apt-get update
-RUN		apt-get install -y wget unzip apache2 make git php5 php5-mysql
+RUN		apt-get install -y wget unzip apache2 make git php5 php5-mysql curl
 
 RUN		wget https://github.com/AKSW/OntoWiki/archive/develop.zip
 RUN		unzip develop.zip
