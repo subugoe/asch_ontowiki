@@ -5,4 +5,5 @@
 
 #### See Logs
 * docker-compose logs 
-* docker-compose logs <service: web or db>
+* docker-compose logs service
+  * service: web or db
