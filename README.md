@@ -3,6 +3,6 @@
 ## Start the System
 * docker-compose up -d
 
-## See Logs
+### See Logs
 * docker-compose logs 
 * docker-compose logs <service: web or db>
